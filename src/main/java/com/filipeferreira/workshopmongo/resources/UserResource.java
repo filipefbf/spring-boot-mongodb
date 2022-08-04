@@ -1,6 +1,6 @@
 package com.filipeferreira.workshopmongo.resources;
 
-import com.filipeferreira.workshopmongo.domain.entities.User;
+import com.filipeferreira.workshopmongo.domain.User;
 import com.filipeferreira.workshopmongo.dto.UserDTO;
 import com.filipeferreira.workshopmongo.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +10,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import java.net.URI;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RestController

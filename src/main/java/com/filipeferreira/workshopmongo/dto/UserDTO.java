@@ -1,6 +1,6 @@
 package com.filipeferreira.workshopmongo.dto;
 
-import com.filipeferreira.workshopmongo.domain.entities.User;
+import com.filipeferreira.workshopmongo.domain.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
