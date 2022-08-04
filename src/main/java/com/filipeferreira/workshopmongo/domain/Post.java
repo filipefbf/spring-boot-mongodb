@@ -4,6 +4,7 @@ import com.filipeferreira.workshopmongo.dto.AuthorDTO;
 import com.filipeferreira.workshopmongo.dto.CommentDTO;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -16,6 +17,7 @@ import java.util.Objects;
 
 @Document
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 public class Post implements Serializable {
